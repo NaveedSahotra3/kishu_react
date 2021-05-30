@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// import jsfile from '../public/assests/js/webflow'
 ReactDOM.render(
+
+
   <React.StrictMode>
+
+
     <App />
   </React.StrictMode>,
   document.getElementById('root')
