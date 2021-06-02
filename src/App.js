@@ -1,12 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 
-import EllipseImage from "./images/Ellipse-1-copy-7.png";
-import Shape8 from "./images/Shape-8-copy.png";
+
 import "./components/moonmap.css";
 import WhyKishu from "./components/whyKishu";
-import V1big from "./images/v1big.gif";
-import V1BigBackground from "./images/instant-rewards---background-no-kishu.png";
-import ShiningStart from "./images/shining-stars-.png";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 

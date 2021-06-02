@@ -82,10 +82,12 @@ const Tokenomics = ()=>{
                   <div id="" class="right-col">
                    
                    
-                    {/* { animation == false ? ( */}
-                      <ScrollAnimation
+                    {
+                       animation == false ?
+                  
+                     <ScrollAnimation
                         id="condition"
-                        animateIn="flipInX"
+                        animateIn="fadeIn"
                         animateOut="fadeOut"
                         afterAnimatedIn={function afterAnimatedOut(v) {
                         
@@ -99,8 +101,9 @@ const Tokenomics = ()=>{
                         }}
                       >
                         <div
+                        
                           data-w-id="f260eb35-8ea4-0380-4a92-2422d676718f"
-                          class="tokenomics-text-item"
+                          class="animate__animated animate__fadeInDown tokenomics-text-item"
                         >
                           <div class="flex-vertical">
                             <h3 class="red is--tokenomics">$KISHU</h3>
@@ -116,28 +119,35 @@ const Tokenomics = ()=>{
                           </div>
                         </div>
                       </ScrollAnimation>
-                    {/* ) : ( */}
+                   
+                  
+                  
+                  
+                   :  animation == true ? (
+
                       <ScrollAnimation
-                      id="condition"
-                        animateIn="flipInX"
-                        // initiallyVisible={false}
-                        animationOut="fadeOut"
-                        afterAnimatedOut={function afterAnimatedIn(v) {
+                      // id="condition"
+                      animateIn="fadeIn"
+                      deplay={1000}
+                    
+                      animationOut="fadeOut"
+                      afterAnimatedIn={function afterAnimatedOut(v) {
                          
 
-                          var t = "Animate In finished.\n";
-                          t += "v.onScreen: " + v.onScreen + "\n";
+                        var t = "Animate In finished.\n";
+                        t += "v.onScreen: " + v.onScreen + "\n";
                           t += "v.inViewport: " + v.inViewport;
+                          // document.getElementById('conditon').style.display ="none"
                           // alert(t);
                           setAnimation(false)
-                          console.log(t);
+                          console.log(animation);
                         }}
-                      >
+                        >
                         <div
                           id="price-chart"
                           data-w-id="911dc789-cd8c-3157-6ceb-b918bd87e7db"
                           class="tokenomics-text-item"
-                        >
+                          >
                           <div class="flex-vertical">
                             <h3 id="holders" class="red is--tokenomics">
                               145.000+
@@ -159,12 +169,13 @@ const Tokenomics = ()=>{
                               href="https://www.coingecko.com/en/coins/kishu-inu"
                               target="_blank"
                               class="link"
-                            >
+                              >
                               Price Chart
                             </a>
                           </div>
                         </div>
                      </ScrollAnimation>
+                       )  : setAnimation(true) }
                     {/* )} */}
                   </div>
                 </div>
