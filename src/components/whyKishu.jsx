@@ -67,8 +67,9 @@ const WhyKishu = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos="fade-up"
+            style={{marginBottom:'50px'}}
           >
-            <div class="_2-col-grid bottom-padding is--sticky">
+            <div class="_2-col-grid bottom-padding is--sticky" >
               <div
                 id="w-node-_4d01e470-0316-6366-bff1-e94ed46148b2-52018772"
                 class="left-col"
@@ -134,6 +135,8 @@ const WhyKishu = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos="fade-up"
+            style={{marginBottom:'50px'}}
+
           >
             <div class="_2-col-grid bottom-padding is--sticky">
               <div
@@ -208,6 +211,8 @@ const WhyKishu = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos="fade-up"
+            style={{marginBottom:'50px'}}
+
           >
             <div class="_2-col-grid bottom-padding is--sticky">
               <div

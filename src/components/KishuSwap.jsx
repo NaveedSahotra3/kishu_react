@@ -9,14 +9,19 @@ import AOS from "aos";
 
 const KishuSwap = () => {
   
-  const getAnimation = ()=>{
-    $(window).scroll(function() {
-      $(".mydiv").css({
-        "top": ($(window).scrollTop()) + "px",
-        "left": ($(window).scrollLeft()) +   "px"
-      });
-    });
-  }
+  // const [animation , setAnimation] = useState(false)
+  // const getAnimation = ()=>{
+  
+  // }
+
+  // useEffect(()=>{
+  //   $(window).scroll(function() {
+  //     $(".mydiv").css({
+  //       "top": ($(window).scrollTop()) + "px",
+  //       "left": ($(window).scrollLeft()) +   "px"
+  //     });
+  //   });
+  // }, [animation])
 
   
 
@@ -33,7 +38,6 @@ const KishuSwap = () => {
     transformStyle: 'preserve-3d'
   }
 
-  const [animation , setAnimation] = useState(false)
   return (
     <div>
       <section
@@ -72,30 +76,33 @@ const KishuSwap = () => {
               </a>
             </div>
 
-            <ScrollAnimation
-              animateIn="flipInX"
+            {/* <ScrollAnimation
+              animateIn="fadeUp"
+              animateOut="fadeIn"
+
               afterAnimatedIn={function afterAnimatedIn(v) {
                 var t = "Animate In finished.\n";
                 t += "v.onScreen: " + v.onScreen + "\n";
                 t += "v.inViewport: " + v.inViewport;
                 // alert(t);
-                getAnimation(t)
+                // getAnimation(t)
                 setAnimation(true)
               }}
-            >
+            > */}
               
               <div
             
                 data-w-id="144a6b52-a9d9-1231-1db6-5ffa2cee27cf"
                 className=" purple-paw-wrapper mydiv"
                
-                style = {animation== true ? style : style}
+                
 
                
               >
                 <img
                   src={PurplePaw}
                   loading="lazy"
+               
                   width="837"
                   sizes="(max-width: 767px) 100vw, (max-width: 1919px) 46vw, 100vw"
                   srcset={PurplePaw}
@@ -104,6 +111,7 @@ const KishuSwap = () => {
                 />
                 <img
                   src={ScreenShot}
+                  data-aos="fade-up"
                   // url('./images/screnshot.png')
                   loading="lazy"
                   alt=""
@@ -122,7 +130,7 @@ const KishuSwap = () => {
                     </ParallaxLayer>
                   </Parallax> */}
               </div>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
           </div>
         </div>
       </section>
