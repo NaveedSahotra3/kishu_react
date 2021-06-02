@@ -2478,6 +2478,8 @@ a.w--current {
   left: 65px;
   right: 108px;
   padding: 89px;
+  /* height: 417px;
+    width: 617px; */
 }
 
 .image-20 {
@@ -3673,3 +3675,29 @@ a.w--current {
   font-style: normal;
   font-display: swap;
 }
+
+.back-to-top {
+  mix-blend-mode: difference;
+}
+.capitals.nav-link.is--back-to-top {
+  mix-blend-mode: difference;
+}
+
+#google_translate_element {position:relative}
+#google_translate_element span {display: none!important; }
+#google_translate_element:after {
+content: "";
+  bottom:0;
+  left:0;
+  width:0%;
+  background:transparent;
+  position: absolute;
+  z-index: 1000;
+  height: 0%;
+}
+#google_translate_element select {
+padding: 10px;
+}
+.goog-te-banner-frame.skiptranslate {display: none!important; visibility: hidden!important;}
+
+

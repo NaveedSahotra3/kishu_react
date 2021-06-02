@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import jsfile from '../public/assests/js/webflow'
+// import * as jsfile from './js/webflow'
+// useEffect(()=>{
+  
+
+
+// }, [jsfile]),
+
+// jsfile.someFunction()
 ReactDOM.render(
 
-
+  
   <React.StrictMode>
+
 
 
     <App />
