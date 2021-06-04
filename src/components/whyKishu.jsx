@@ -120,10 +120,9 @@ const WhyKishu = () => {
                     Rewards
                   </h3>
                   <p class="_w-414">
-                    For every transaction in KISHU&#x27;s network (buy or sell),
+                    For every transaction in SafeBreast network (buy or sell),
                     2% of the transaction is distributed to existing holders.
-                    That means you earn $KISHU just by holding it in your
-                    wallet.
+                    That means you earn $SAFEBREAST just by holding it 
                   </p>
                 </div>
               </div>
@@ -164,13 +163,13 @@ const WhyKishu = () => {
                     alt=""
                     class="shining-stars"
                   />
-                  <img
+                  {/* <img
                     src={V1big}
                     loading="lazy"
                     width="1038"
                     alt=""
                     class="image-19"
-                  />
+                  /> */}
                 </div>
               </div>
 
@@ -190,9 +189,10 @@ const WhyKishu = () => {
                     Powered
                   </h3>
                   <p class="_w-414">
-                    KISHU is fully decentralized and owned by its fun, vibrant
+                    {/* KISHU is fully decentralized and owned by its fun, vibrant
                     community. We welcome and embrace diverse perspectives to
-                    build KISHU into the best community in crypto.
+                    build KISHU into the best community in crypto. */}
+                   (Something similar , great with link to telegram)
                   </p>
                   <a
                     href="https://t.me/kishuinucommunity"
@@ -262,9 +262,8 @@ const WhyKishu = () => {
                 >
                   <h3>Secure &amp; Safe</h3>
                   <p class="_w-414">
-                    KISHU has been audited and its LP (Liquidity Pool) tokens
-                    have been burnt. That means zero risk to our investors from
-                    potential bad actors.
+                 (Something similar , great with link to security audit) -CL is getting code audited as we speak and should be done 
+                 well before website launch
                   </p>
                   <a
                     href="audits/KishuInu-Audit-TechRate.pdf"

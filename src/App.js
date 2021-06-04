@@ -20,6 +20,7 @@ import MoonMap from "./components/MoonMap";
 import FoundingTeam from "./components/foundingTeam";
 import Donating from "./components/donating";
 import Footer from "./components/Footer";
+import Faq from "./components/faq";
 // import "animate.css/animate.min.css";
 // const url = (name, wrap ) =>
 //   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
@@ -99,6 +100,7 @@ function App() {
           <FoundingTeam />
 
           <Donating />
+          <Faq/>
           <Footer />
         </>
       )}

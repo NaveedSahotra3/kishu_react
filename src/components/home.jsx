@@ -30,9 +30,10 @@ const Home = ()=>{
                     role="navigation"
                     id="w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e7ff-52018772"
                     class="nav-menu w-nav-menu"
+                    style={{width:'762px'}}
                   >
                     <a href="#why-kishu" class="capitals nav-link w-nav-link">
-                      Why kishu
+                      Why Safebreast
                     </a>
                     <div
                       data-hover="1"
@@ -70,7 +71,10 @@ const Home = ()=>{
                       moonmap
                     </a>
                     <a href="#donate" class="capitals nav-link w-nav-link">
-                      donate
+                      chrity
+                    </a>
+                    <a href="#faq" class="capitals nav-link w-nav-link">
+                      faq
                     </a>
                   </nav>
                   <a

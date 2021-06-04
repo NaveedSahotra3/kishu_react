@@ -10,6 +10,8 @@ import Space from "../images/kishu-rocket-space.png";
 const MoonMap = () => {
   return (
     <div>
+
+
       <div id="moonmap" class="">
         <div class="container-1800">
           <div class="section-heading">
