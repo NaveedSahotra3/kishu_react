@@ -518,7 +518,7 @@
             height: 100vh;
             margin-bottom: 4.17em;
           }
-          
+/*           
           .background-image.is--hero {
             position: absolute;
             left: 0%;
@@ -532,7 +532,7 @@
             background-size: cover;
             background-repeat: no-repeat;
           }
-          
+           */
           ._2-col-grid {
             display: -ms-grid;
             display: grid;
@@ -1327,7 +1327,8 @@
           }
           
           .is--hero-text {
-            max-width: 589px;
+            max-width: 300px;
+            margin-left: 229px !important;
             min-width: 327px;
             margin-bottom: 1.7em;
           }
@@ -1615,7 +1616,7 @@
           
           .display {
             margin-bottom: 0.4em;
-            font-size: 5.9em;
+            font-size: 4.0em;
           }
           
           .tokenomics-scrolling-container {

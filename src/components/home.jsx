@@ -19,13 +19,13 @@ const Home = ()=>{
               role="banner"
               class="navbar native w-nav"
             >
-              <div class="container-1800 is--nav">
+              <div class="container-1800 is--nav" style={{paddingLeft:'304px'}}>
                 <div class="navbar custom">
-                  <a
+                  {/* <a
                     href="#home"
                     id="Kishu-logo"
                     class="brand brand-2 w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e7fe-52018772 w-nav-brand"
-                  ></a>
+                  ></a> */}
                   <nav
                     role="navigation"
                     id="w-node-_6be0c6f3-5804-18a3-23b0-d24feef2e7ff-52018772"
@@ -108,10 +108,15 @@ const Home = ()=>{
                     id="w-node-_151b762e-3975-8bd9-09a6-b15858026423-52018772"
                     class="hero-text"
                   >
-                    <h1 class="display">
-                      Little meme.
+                    <h1 class="display" style={{marginTop:'80px' , textAlign:'center'  , marginLeft:'100px'}}>
+                      Breast
+                      <br /> 
+                      Safely
                       <br />
-                      Big dream.
+                      to the 
+                                            
+                      <br />
+                      moon
                     </h1>
                     <p class="is--hero-text">
                       Kishu Inu ($KISHU) is a community-focused, decentralized
@@ -123,6 +128,7 @@ const Home = ()=>{
                         href="https://exchange.kishu.com/#/swap?inputCurrency=ETH&amp;outputCurrency=0xa2b4c0af19cc16a6cfacce81f192b024d625817d"
                         target="_blank"
                         class="cta-button red-button w-button"
+                        style={{backgroundColor: '#458dfc'}}
                       >
                         BUY $KISHU
                       </a>
@@ -197,7 +203,7 @@ const Home = ()=>{
                     id="w-node-c5f9f19b-7168-f059-943c-ccb78b848fa7-52018772"
                     class="hero-graphics-wrapper"
                   >
-                    <img
+                    {/* <img
                       src={Billi}
                       alt=""
                       class="kishu-tailwag is-full-height"
@@ -217,7 +223,7 @@ const Home = ()=>{
                       width="193"
                       alt=""
                       class="kishu-dreambubble"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>

@@ -8,7 +8,7 @@ import V1big from "../images/v1big.gif";
 import V1BigBackground from "../images/instant-rewards---background-no-kishu.png";
 import ShiningStart from "../images/shining-stars-.png";
 import Eyeglasses from "../images/eyeglasses-kishu.png";
-
+import christianlinge from './Images/christianlinge-three-characters.png'
 const Tokenomics = ()=>{
 
   const [animation, setAnimation] = useState(false);
@@ -37,10 +37,10 @@ const Tokenomics = ()=>{
                       class="tokenomics-image"
                     >
                       <img
-                        src={Eyeglasses}
+                        src={christianlinge}
                         loading="lazy"
                         sizes="(max-width: 767px) 100vw, (max-width: 991px) 452.9296875px, (max-width: 1919px) 46vw, 43vw"
-                        srcset={Eyeglasses}
+                        srcset={christianlinge}
                         alt=""
                         class="eyeglasses-kishu"
                       />
@@ -56,10 +56,10 @@ const Tokenomics = ()=>{
                     </div>
                     <div class="tokenomics-image _2">
                       <img
-                        src={Eyeglasses}
+                        src={christianlinge}
                         loading="lazy"
                         sizes="(max-width: 767px) 100vw, (max-width: 991px) 452.9296875px, (max-width: 1919px) 46vw, 43vw"
-                        srcset={Eyeglasses}
+                        srcset={christianlinge}
                         alt=""
                         class="eyeglasses-kishu"
                       />
