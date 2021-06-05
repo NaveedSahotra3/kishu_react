@@ -67,9 +67,77 @@ const WhyKishu = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos="fade-up"
-            style={{marginBottom:'50px'}}
+            style={{ marginBottom: "50px" }}
           >
-            <div class="_2-col-grid bottom-padding is--sticky" >
+            <div class="_2-col-grid bottom-padding is--sticky">
+              <div
+                id="w-node-_4d01e470-0316-6366-bff1-e94ed46148b2-52018772"
+                class="left-col"
+              >
+                <div
+                  data-w-id="33305f40-759f-5b1c-d56f-046096d6bea0"
+                  class="why-kishu-image"
+                >
+                  <img
+                    src={V1BigBackground}
+                    loading="lazy"
+                    width="772"
+                    sizes="(max-width: 767px) 100vw, (max-width: 991px) 452.9296875px, 46vw"
+                    srcset={V1BigBackground}
+                    alt=""
+                    class="what-is-kishu-img"
+                  />
+                  <img
+                    src={ShiningStart}
+                    loading="lazy"
+                    sizes="(max-width: 767px) 100vw, (max-width: 991px) 452.9296875px, (max-width: 1919px) 46vw, 32vw"
+                    srcset={ShiningStart}
+                    alt=""
+                    class="shining-stars"
+                  />
+                  <img
+                    src={V1big}
+                    loading="lazy"
+                    width="1038"
+                    alt=""
+                    class="image-19"
+                  />
+                </div>
+              </div>
+
+              <div
+                data-aos="fade-up"
+                id="w-node-bc539372-19b1-6802-b824-1e8e8666fcb6-52018772"
+                class="right-col"
+              >
+                <div
+                  data-w-id="5c6a93ce-3cd4-9d9a-119c-37c503aa87d6"
+                  class="why-kishu-text-item"
+                >
+                  <h3>
+                    Chrity
+                    <br />
+                    Contribution
+                  </h3>
+                  <p class="_w-414">
+                    For every transaction in SafeBreast network (buy or sell),
+                    2% of the transaction is automatically converted ethereum
+                    and can be donated without needing to sell SafeBreast -
+                    (LINK TO CHRITY WALLET)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos="fade-up"
+            style={{ marginBottom: "50px" }}
+          >
+            <div class="_2-col-grid bottom-padding is--sticky">
               <div
                 id="w-node-_4d01e470-0316-6366-bff1-e94ed46148b2-52018772"
                 class="left-col"
@@ -122,7 +190,7 @@ const WhyKishu = () => {
                   <p class="_w-414">
                     For every transaction in SafeBreast network (buy or sell),
                     2% of the transaction is distributed to existing holders.
-                    That means you earn $SAFEBREAST just by holding it 
+                    That means you earn $SAFEBREAST just by holding it
                   </p>
                 </div>
               </div>
@@ -134,8 +202,7 @@ const WhyKishu = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos="fade-up"
-            style={{marginBottom:'50px'}}
-
+            style={{ marginBottom: "50px" }}
           >
             <div class="_2-col-grid bottom-padding is--sticky">
               <div
@@ -192,7 +259,7 @@ const WhyKishu = () => {
                     {/* KISHU is fully decentralized and owned by its fun, vibrant
                     community. We welcome and embrace diverse perspectives to
                     build KISHU into the best community in crypto. */}
-                   (Something similar , great with link to telegram)
+                    (Something similar , great with link to telegram)
                   </p>
                   <a
                     href="https://t.me/kishuinucommunity"
@@ -211,8 +278,7 @@ const WhyKishu = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos="fade-up"
-            style={{marginBottom:'50px'}}
-
+            style={{ marginBottom: "50px" }}
           >
             <div class="_2-col-grid bottom-padding is--sticky">
               <div
@@ -262,8 +328,9 @@ const WhyKishu = () => {
                 >
                   <h3>Secure &amp; Safe</h3>
                   <p class="_w-414">
-                 (Something similar , great with link to security audit) -CL is getting code audited as we speak and should be done 
-                 well before website launch
+                    (Something similar , great with link to security audit) -CL
+                    is getting code audited as we speak and should be done well
+                    before website launch
                   </p>
                   <a
                     href="audits/KishuInu-Audit-TechRate.pdf"

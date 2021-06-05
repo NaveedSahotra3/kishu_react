@@ -528,7 +528,7 @@ a.w--current {
   bottom: 0%;
   width: 100%;
   height: 100%;
-  background-image: url('../images/hero-background-shapes.png');
+  background-image: url('../../../src/components/Images/hero-background-shapes');
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;

@@ -21,10 +21,12 @@ import FoundingTeam from "./components/foundingTeam";
 import Donating from "./components/donating";
 import Footer from "./components/Footer";
 import Faq from "./components/faq";
-// import "animate.css/animate.min.css";
-// const url = (name, wrap ) =>
-//   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
-const url = ScreenShot;
+
+// css
+// import './assests/css/normalize.css'
+// import './assests/css/kishu-finance.webflow.css'
+// import './assests/css/webflow.css'
+
 
 function App() {
   const [loading, setLoading] = useState(false);

@@ -1,19 +1,15 @@
-import React from 'react'
-import Ki_facer from "../images/ki-facer-1.png";
-import ShapeThree from "../images/Shape-3.png";
-import FireBee from "../images/frisbee.png";
-import ShapeBehind from "../images/htb-shape-behind-number.png";
-import Shape4 from "../images/Shape-4.png";
-
-const HowToBuy = ()=>{
-    return(<div>
-   <section
-            id="how-to-buy"
-            data-w-id="79154066-a6be-0e91-28f5-f2df3abf15d2"
-            class="how-to-buy"
-          >
-            <div class="container-1800">
-              <div class="section-heading">
+import React from "react";
+import LogoExchange from "./logoExchange.png";
+const HowToBuy = () => {
+  return (
+    <div>
+      <section
+        id="how-to-buy"
+        data-w-id="79154066-a6be-0e91-28f5-f2df3abf15d2"
+        class="how-to-buy"
+      >
+        <div class="container-1800 " style={{ marginTop: "30px" }}>
+          {/* <div class="section-heading">
                 <h2 class="h2-what-is-kishu">How to buy $Kishu</h2>
                 <div class="accent-large">Buy</div>
               </div>
@@ -227,10 +223,281 @@ const HowToBuy = ()=>{
                     </div>
                   </div>
                 </div>
+              </div> */}
+
+          <div
+            style={{
+              width: "100%",
+              height: "80px",
+              textAlign: "center",
+              marginTop: "30px",
+              // backgroundColor: "#f7fafc",
+            }}
+          >
+            <span
+              style={{
+                borderBottom: "1px solid #3d006f",
+                width: "498px;",
+                color: "#3d006f",
+                fontSize: "2rem",
+                fontWeight: "500",
+              }}
+            >
+              HOW TO BUY HOKK
+            </span>
+
+            <p style={{ marginTop: "40px" }}>
+              The safest place to buy HOKK is HOKKS (use 3-4% slippage)
+            </p>
+
+            <button
+              style={{
+                marginTop: "30px",
+                marginTop: "40px",
+                width: "180px",
+                height: " 63px",
+                backgroundColor: "#5a58cd",
+                color: "#ffff",
+                borderRadius: " 6px",
+              }}
+            >
+              VIEW PRICE CHART
+              <i
+                style={{
+                  marginLeft: "10px",
+                }}
+                class="fas fa-arrow-right"
+              ></i>
+            </button>
+
+            {/* main content */}
+            <div
+              style={{
+                // border: "1px solid red",
+
+                width: "100%",
+                // marginTop: "30px",
+                height: "500px",
+                display: "flex",
+                flexWrap: "wrap",
+                alignItems: "center",
+                // paddingLeft: "10%",
+              }}
+            >
+              {/* left content */}
+              <div
+                style={{
+                  // border: "1px solid green",
+                  width: "33%",
+                  marginTop: "30px",
+                  height: "500px",
+                  padding: "35px",
+                  // paddingLeft:0
+                }}
+              >
+                <span
+                  style={{
+                    borderBottom: "1px solid #3d006f",
+                    width: "398px;",
+                    color: "#3d006f",
+                    fontSize: "1.5rem",
+                    fontWeight: "500",
+                  }}
+                >
+                  HOW TO BUY
+                </span>
+
+                <p style={{ marginTop: "40px" }}>Buy Hokk in four easy steps</p>
+
+                <button
+                  style={{
+                    marginTop: "30px",
+                    marginTop: "40px",
+                    width: "180px",
+                    height: " 63px",
+                    // backgroundColor: 'hsl(#3a1c71 , #d76d7 , #ffaf7b , 0)',
+                    background: "#3A1C71" /* fallback for old browsers */,
+                    background:
+                      "-webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71)" /* Chrome 10-25, Safari 5.1-6 */,
+                    background:
+                      "linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71)" /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */,
+
+                    color: "#ffff",
+                    borderRadius: " 6px",
+                  }}
+                >
+                  VIEW PRICE CHART
+                  <i
+                    style={{
+                      marginLeft: "10px",
+                    }}
+                    class="fas fa-arrow-right"
+                  ></i>
+                </button>
+              </div>
+
+              {/* Middle Div */}
+              <div
+                style={{
+                  width: "33%",
+                  marginTop: "30px",
+                  height: "500px",
+                  padding: "35px",
+                }}
+              >
+                <div>
+                  <h6 style={{ textAlign: "left" }}>
+                    {" "}
+                    <i class="fas fa-cat"></i> Step1: Install MetaMask For
+                    Chrome
+                  </h6>
+                  <p style={{ textAlign: "justify" }}>
+                    Open your Google Chrome and visit metamask.io Download the
+                    MetaMask chrome extension and set up a wallet. On mobile?
+                    Get MetaMask app for Iphone and or Android
+                  </p>
+                </div>
+
+                <div>
+                  <h6 style={{ textAlign: "left" }}>
+                    {" "}
+                    <i class="fas fa-cat"></i> Step1: Install MetaMask For
+                    Chrome
+                  </h6>
+                  <p style={{ textAlign: "justify" }}>
+                    Open your Google Chrome and visit metamask.io Download the
+                    MetaMask chrome extension and set up a wallet. On mobile?
+                    Get MetaMask app for Iphone and or Android
+                  </p>
+                </div>
+              </div>
+
+              {/* Right content */}
+              <div
+                style={{
+                  // border: "1px solid yellow",
+                  width: "33%",
+                  marginTop: "30px",
+                  height: "500px",
+                  padding: "35px",
+                }}
+              >
+                <div>
+                  <h6 style={{ textAlign: "left" }}>
+                    {" "}
+                    <i class="fas fa-cat"></i> Step1: Install MetaMask For
+                    Chrome
+                  </h6>
+                  <p style={{ textAlign: "justify" }}>
+                    Open your Google Chrome and visit metamask.io Download the
+                    MetaMask chrome extension and set up a wallet. On mobile?
+                    Get MetaMask app for Iphone and or Android
+                  </p>
+                </div>
+
+                <div>
+                  <h6 style={{ textAlign: "left" }}>
+                    {" "}
+                    <i class="fas fa-cat"></i> Step1: Install MetaMask For
+                    Chrome
+                  </h6>
+                  <p style={{ textAlign: "justify" }}>
+                    Open your Google Chrome and visit metamask.io Download the
+                    MetaMask chrome extension and set up a wallet. On mobile?
+                    Get MetaMask app for Iphone and or Android
+                  </p>
+                </div>
               </div>
             </div>
-          </section>
-    </div>)
-}
 
-export default HowToBuy
+            {/* exchange */}
+
+            <span
+              style={{
+                borderBottom: "1px solid #3d006f",
+                width: "498px;",
+                color: "#3d006f",
+                fontSize: "2rem",
+                fontWeight: "500",
+              }}
+            >
+              EXCHANGE
+            </span>
+
+            {/* <table style={{margin:'auto'}}>
+              <tr>
+                <td><img src={LogoExchange} /></td>
+                <td><img src={LogoExchange} /></td>
+                <td><img src={LogoExchange} /></td>
+                 <td><img src={LogoExchange} /></td>
+
+              </tr>
+              <tr>
+              <td><img src={LogoExchange} /></td>
+               <td><img src={LogoExchange} /></td>
+               <td><img src={LogoExchange} /></td>
+              <td><img src={LogoExchange} /></td>
+
+              </tr>
+            </table> */}
+
+            <div
+              style={{
+                margin: "auto",
+                display: "flex",
+                flexWrap: "wrap",
+                marginLeft: "28%",
+                marginTop: "40px",
+              }}
+            >
+              <div style={{ marginLeft: "10px" }}>
+                {" "}
+                <img src={LogoExchange} />
+              </div>
+              <div style={{ marginLeft: "10px" }}>
+                {" "}
+                <img src={LogoExchange} />
+              </div>
+              <div style={{ marginLeft: "10px" }}>
+                {" "}
+                <img src={LogoExchange} />
+              </div>
+              <div style={{ marginLeft: "10px" }}>
+                {" "}
+                <img src={LogoExchange} />
+              </div>
+            </div>
+            <div
+              style={{
+                margin: "auto",
+                display: "flex",
+                flexWrap: "wrap",
+                marginLeft: "28%",
+                marginTop: "40px",
+              }}
+            >
+              <div style={{ marginLeft: "10px" }}>
+                {" "}
+                <img src={LogoExchange} />
+              </div>
+              <div style={{ marginLeft: "10px" }}>
+                {" "}
+                <img src={LogoExchange} />
+              </div>
+              <div style={{ marginLeft: "10px" }}>
+                {" "}
+                <img src={LogoExchange} />
+              </div>
+              <div style={{ marginLeft: "10px" }}>
+                {" "}
+                <img src={LogoExchange} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default HowToBuy;
