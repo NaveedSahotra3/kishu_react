@@ -6,7 +6,7 @@ import stars from "../images/kishu-rocket-stars.png";
 import trail from "../images/kishu-rocket-trail.png";
 import smoke from "../images/kishu-rocket-smoke.png";
 import Space from "../images/kishu-rocket-space.png";
-
+import Christianlinge from './Images/christianlinge-twochara.png'
 const MoonMap = () => {
   return (
     <div>
@@ -40,10 +40,10 @@ const MoonMap = () => {
                   >
                     <div class="kishu-rocket-wrapper">
                       <img
-                        src={alone}
+                        src={Christianlinge}
                         loading="lazy"
                         sizes="(max-width: 479px) 335.99609375px, (max-width: 1919px) 593.828125px, 37vw"
-                        srcset={(alone, alone)}
+                        srcset={(Christianlinge, Christianlinge)}
                         alt=""
                         class="kishu-rocket"
                       />
