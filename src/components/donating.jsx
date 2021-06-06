@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import DonateQR from "../images/donate-qr-code.png";
 import Image09 from "../images/09-big.gif";
@@ -24,9 +24,16 @@ const Donating = () => {
       duration: 4000,
     });
   }, []);
+
+  const [isMobile, setMobile] = useState(false)
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      setMobile(true)
+    }
+  }, [])
   return (
     <div>
-      <section id="donate" class="donate" style={{ marginBottom: "3000px" }}>
+      <section id="donate" class="donate" style={{  marginBottom: isMobile ? 2160  : "3000px" }}>
         {/* <div class="container-1800" style={{ marginTop: "430px" }}>
           <div class="section-heading is--donate">
             <div class="accent-large">Donate</div>
@@ -207,7 +214,7 @@ const Donating = () => {
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos="fade-up"
-          // style={{ marginBottom: "50px" }}
+        // style={{ marginBottom: "50px" }}
         >
           <div class="container-1800" style={{ marginTop: "430px" }}>
             <div class="section-heading is--donate">
@@ -257,9 +264,12 @@ const Donating = () => {
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos="fade-up"
-          // style={{ marginBottom: "50px" }}
+        // style={{ marginBottom: "50px" }}
         >
-          <div class="container-1800" style={{ marginTop: "600px" ,backgroundColor:'rgba(192,192,192,0.3)' }}>
+          <div class="container-1800" style={{ 
+            marginTop: isMobile ? 300 : "600px", 
+            height: isMobile ? "45em" : "auto", 
+            backgroundColor: 'rgba(192,192,192,0.3)' }}>
             <div class="section-heading is--donate">
               <div class="accent-large">Doing</div>
             </div>
@@ -304,10 +314,10 @@ const Donating = () => {
                 display: "flex",
                 // border: "1px solid red",
                 // backgroundColor: '	rgb(220,192,192)',
-           
+
               }}
             >
-              <div style={{textAlign:'center'}}>
+              <div style={{ textAlign: 'center' }}>
                 <h4>$ 945, 000 </h4>
                 <p>
                   <strong> AMOUNT DONATED</strong>
@@ -316,7 +326,7 @@ const Donating = () => {
                   Children
                 </p>
               </div>
-              <div style={{textAlign:'center'}}>
+              <div style={{ textAlign: 'center' }}>
                 <h4>$ 945, 000 </h4>
                 <p>
                   <strong> AMOUNT DONATED</strong>
@@ -325,7 +335,7 @@ const Donating = () => {
                   Children
                 </p>
               </div>
-              <div style={{textAlign:'center'}}>
+              <div style={{ textAlign: 'center' }}>
                 <h4>$ 945, 000 </h4>
                 <p>
                   <strong> AMOUNT DONATED</strong>
@@ -344,9 +354,9 @@ const Donating = () => {
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos="fade-up"
-          // style={{ marginBottom: "50px" }}
+        // style={{ marginBottom: "50px" }}
         >
-          <div class="container-1800" style={{ marginTop: "430px" }}>
+          <div class="container-1800" style={{  marginTop: isMobile ? 130 : "430px" }}>
             <div class="section-heading is--donate">
               <div class="accent-large">Donate</div>
             </div>

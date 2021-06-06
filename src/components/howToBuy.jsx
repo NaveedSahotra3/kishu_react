@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import LogoExchange from "./logoExchange.png";
 const HowToBuy = () => {
+
+  const [isMobile, setMobile] = useState(false)
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      setMobile(true)
+    }
+  }, [])
+
   return (
     <div>
       <section
@@ -241,6 +249,7 @@ const HowToBuy = () => {
                 color: "#3d006f",
                 fontSize: "2rem",
                 fontWeight: "500",
+                lineHeight: '3rem'
               }}
             >
               HOW TO BUY HOKK
@@ -272,28 +281,12 @@ const HowToBuy = () => {
 
             {/* main content */}
             <div
-              style={{
-                // border: "1px solid red",
-
-                width: "100%",
-                // marginTop: "30px",
-                height: "500px",
-                display: "flex",
-                flexWrap: "wrap",
-                alignItems: "center",
-                // paddingLeft: "10%",
-              }}
+              className="_how_to_buy_colms"
             >
+
               {/* left content */}
               <div
-                style={{
-                  // border: "1px solid green",
-                  width: "33%",
-                  marginTop: "30px",
-                  height: "500px",
-                  padding: "35px",
-                  // paddingLeft:0
-                }}
+                className="_left_content_"
               >
                 <span
                   style={{
@@ -307,15 +300,14 @@ const HowToBuy = () => {
                   HOW TO BUY
                 </span>
 
-                <p style={{ marginTop: "40px" }}>Buy Hokk in four easy steps</p>
+                <p style={{ marginTop: isMobile ? "10px" : "40px" }}>Buy Hokk in four easy steps</p>
 
                 <button
                   style={{
                     marginTop: "30px",
-                    marginTop: "40px",
+                    marginTop: isMobile ? "20px" : "40px",
                     width: "180px",
                     height: " 63px",
-                    // backgroundColor: 'hsl(#3a1c71 , #d76d7 , #ffaf7b , 0)',
                     background: "#3A1C71" /* fallback for old browsers */,
                     background:
                       "-webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71)" /* Chrome 10-25, Safari 5.1-6 */,
@@ -338,12 +330,7 @@ const HowToBuy = () => {
 
               {/* Middle Div */}
               <div
-                style={{
-                  width: "33%",
-                  marginTop: "30px",
-                  height: "500px",
-                  padding: "35px",
-                }}
+                className="_left_content_"
               >
                 <div>
                   <h6 style={{ textAlign: "left" }}>
@@ -374,13 +361,7 @@ const HowToBuy = () => {
 
               {/* Right content */}
               <div
-                style={{
-                  // border: "1px solid yellow",
-                  width: "33%",
-                  marginTop: "30px",
-                  height: "500px",
-                  padding: "35px",
-                }}
+                className="_left_content_"
               >
                 <div>
                   <h6 style={{ textAlign: "left" }}>
@@ -445,9 +426,10 @@ const HowToBuy = () => {
               style={{
                 margin: "auto",
                 display: "flex",
-                flexWrap: "wrap",
-                marginLeft: "28%",
-                marginTop: "40px",
+                flexWrap:isMobile ?"nowrap" :"wrap",
+                marginLeft: isMobile ? 0:"28%",
+                marginTop: isMobile ?20:"40px",
+
               }}
             >
               <div style={{ marginLeft: "10px" }}>
@@ -471,9 +453,9 @@ const HowToBuy = () => {
               style={{
                 margin: "auto",
                 display: "flex",
-                flexWrap: "wrap",
-                marginLeft: "28%",
-                marginTop: "40px",
+                flexWrap:isMobile ?"nowrap" :"wrap",
+                marginLeft: isMobile ? 0:"28%",
+                marginTop: isMobile ?20:"40px",
               }}
             >
               <div style={{ marginLeft: "10px" }}>

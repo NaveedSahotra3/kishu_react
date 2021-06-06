@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import GreenMark from "../images/checkmark-green.svg";
 import alone from "../images/kishu-rocket-alone.png";
@@ -8,6 +8,12 @@ import smoke from "../images/kishu-rocket-smoke.png";
 import Space from "../images/kishu-rocket-space.png";
 import Christianlinge from './Images/christianlinge-twochara.png'
 const MoonMap = () => {
+  const [isMobile, setMobile] = useState(false)
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      setMobile(true)
+    }
+  }, [])
   return (
     <div>
 

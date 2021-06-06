@@ -1939,7 +1939,20 @@
             -ms-flex-direction: column;
             flex-direction: column;
           }
-          
+          ._how_to_buy_colms{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+        ._left_content_{
+          width: 33%;
+          margin-top: 30px;
+          height: 500px;
+          padding: 35px;
+      }
           .moonmap-text-scrolling-container {
             height: 180vh;
           }
@@ -2645,8 +2658,11 @@
               width: 100%;
               padding-right: 24px;
               padding-left: 24px;
+              margin-bottom: 100px;
             }
-          
+          .nav-menu.w-nav-menu{
+            transform: translateX(0px) translateY(0px); height: 14384px; transition: transform 400ms ease 0s;
+          }
             .container-1800.is--nav {
               padding-right: 24px;
               padding-left: 24px;
@@ -2848,7 +2864,7 @@
             }
           
             .how-to-buy {
-              height: 55em;
+              height: 110em;
             }
           
             .moonmap-horiztonal-scrolling-container {
@@ -2901,14 +2917,32 @@
               width: 90%;
               max-width: 327px;
               min-width: 270px;
-              margin-bottom: 2em;
+              margin-bottom: 1em;
+              margin-left: 15px !important;
             }
-          
+            
             .dog-bowl {
               bottom: -17%;
               width: 6em;
             }
-          
+            ._how_to_buy_colms{
+                width: 100%;
+                height: 75rem;
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+                flex-direction: column;
+
+            }
+            .kishu-rocket-wrapper{
+              top: 100px;
+            }
+            ._left_content_{
+              width: 100%;
+              margin-top: 40px;
+              height: auto;
+              padding: 0px;
+          }
             .kishu-dreambubble {
               top: -26%;
               right: 7%;
@@ -3003,9 +3037,11 @@
           
             .display {
               width: 100%;
-              max-width: 327px;
+              max-width: 14rem;
               font-size: 2.5em;
               line-height: 110%;
+              margin-left: -35px !important;
+              margin-top: -100px !important;
             }
           
             .tokenomics-text-item {
@@ -3122,7 +3158,7 @@
             }
           
             .donate {
-              height: 96em;
+              height: 60em;
               margin-top: 0em;
             }
           
@@ -3139,8 +3175,8 @@
             }
           
             .donate-imgs {
-              height: 440px;
-              margin-top: 35px;
+              height: 200px !important;
+              margin-top: 5px !important;
             }
           
             .sleeping-kishu {
