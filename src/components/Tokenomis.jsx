@@ -88,16 +88,13 @@ const Tokenomics = () => {
                     id="condition"
                     animateIn="fadeIn"
                     animateOut="fadeOut"
-                    delay={2000}
                     afterAnimatedIn={function afterAnimatedOut(v) {
 
 
                       var t = "Animate In finished.\n";
                       t += "v.onScreen: " + v.onScreen + "\n";
                       t += "v.inViewport: " + v.inViewport;
-
                       setAnimation(true)
-                      console.log(animation)
                     }}
                   >
                     <div
@@ -123,12 +120,8 @@ const Tokenomics = () => {
                     <ScrollAnimation
                       // id="condition"
                       animateIn="fadeIn"
-                      
-                      delay={10}
                       animationOut="fadeOut"
                       afterAnimatedIn={function afterAnimatedOut(v) {
-
-
                         var t = "Animate In finished.\n";
                         t += "v.onScreen: " + v.onScreen + "\n";
                         t += "v.inViewport: " + v.inViewport;
